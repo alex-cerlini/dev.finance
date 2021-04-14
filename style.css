@@ -115,13 +115,17 @@ color: #fff;
 }
 
 /* ================== TABLE ================== */
+
+#transaction {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
 #data-table {
-    display: inline-table;
     width: 100%;
     border-spacing: 0 0.5rem;
     color: #969cb3;
-
-    overflow: hidden;
 }
 
 table thead th:first-child,
