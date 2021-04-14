@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 93.75%;
+}
+
 body {
     background: #f0f2f5;
     font-family: 'Poppins', sans-serif;
@@ -112,9 +116,12 @@ color: #fff;
 
 /* ================== TABLE ================== */
 #data-table {
+    display: inline-table;
     width: 100%;
     border-spacing: 0 0.5rem;
     color: #969cb3;
+
+    overflow: hidden;
 }
 
 table thead th:first-child,
@@ -165,4 +172,17 @@ footer {
     text-align: center;
     padding: 4rem 0 2rem;
     opacity: 0.6;
+}
+
+/* ================== RESPONSIVE ================== */
+@media (min-width: 800px) {
+    html{
+        font-size: 87.5%;
+    }    
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
 }
