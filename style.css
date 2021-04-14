@@ -122,6 +122,11 @@ table tbody td:first-child{
     border-radius: 0.7rem 0 0 0.7rem;
 }
 
+table thead th:last-child,
+table tbody td:last-child{
+    border-radius: 0 0.7rem 0.7rem 0;
+}
+
 table thead th {
     background: #fff;
     opacity: 0.6;
