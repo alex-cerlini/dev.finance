@@ -12,3 +12,8 @@
 - [] Expense entry
 - [] Table with balance
 - [] Cards with values
+
+### Technology:
+- HTML
+- CSS
+- JavaScript
