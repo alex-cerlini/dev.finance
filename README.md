@@ -5,3 +5,10 @@
 <h4 align="center"> 
 	🚧  Under construction  🚧
 </h4>
+
+### Features
+
+- [] Income entry
+- [] Expense entry
+- [] Table with balance
+- [] Cards with values
