@@ -18,6 +18,12 @@ const transactions = [
         amount: -50000,
         date: '25/04/2021',
     },
+    {
+        id: 2,
+        description: 'Criação de WebSite',
+        amount: 500000,
+        date: '25/04/2021',
+    },
 ]
 
 const Transaction = {
