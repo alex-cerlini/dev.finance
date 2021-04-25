@@ -10,7 +10,7 @@
 
 - [X] Income entry
 - [X] Expense entry
-- [] Table with balance
+- [X] Table with balance
 - [] Cards with values
 
 ### Technology:
