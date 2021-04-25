@@ -8,7 +8,7 @@
 
 ### Features
 
-- [] Income entry
+- [X] Income entry
 - [] Expense entry
 - [] Table with balance
 - [] Cards with values
