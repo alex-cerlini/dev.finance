@@ -8,6 +8,12 @@
 
 ---
 
+## About this project
+
+This software was developer inside Edition 01 - Discover Marathon. The App is a cash flow web application.
+
+---
+
 ### Features
 
 - [X] Income entry
