@@ -11,7 +11,7 @@
 - [X] Income entry
 - [X] Expense entry
 - [X] Table with balance
-- [] Cards with values
+- [X] Cards with values
 
 ### Technology:
 - HTML
