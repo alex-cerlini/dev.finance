@@ -66,6 +66,10 @@ const DOM = {
         </td>
                     `
         return html
+    },
+
+    updateBalance() {
+        document.getElementById('incomeDisplay').innerHTML = "Add Incomes"
     }
 }
 
