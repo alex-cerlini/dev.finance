@@ -93,3 +93,5 @@ const Utils = {
 transactions.forEach(function (transaction) {
     DOM.addTransaction(transaction)
 })
+
+DOM.updateBalance()
