@@ -48,10 +48,10 @@ const DOM = {
 
     addTransaction(transaction, index) {
         const tr = document.createElement('tr')
-        tr.innerHTML = DOM.innerHTMLTransaction()
+        tr.innerHTML = DOM.innerHTMLTransaction(transaction)
 
     },
-    innerHTMLTransaction() {
+    innerHTMLTransaction(transaction) {
 
         const html = `
         <td class="description">Luz</td>
