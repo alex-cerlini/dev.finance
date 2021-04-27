@@ -82,7 +82,7 @@ const Utils = {
             currency: "BRL"
         })
 
-        return signal + value
+        return signal + " " + value
     }
 }
 
