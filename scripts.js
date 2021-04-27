@@ -89,7 +89,7 @@ const DOM = {
     },
 
     updateBalance() {
-        document.getElementById('incomeDisplay').innerHTML = Transaction.incomes()
+        document.getElementById('incomeDisplay').innerHTML = Utils.formatCurrency(Transaction.incomes())
         document.getElementById('expenseDisplay').innerHTML = Transaction.expenses()
         document.getElementById('totalDisplay').innerHTML = Transaction.total()
     }
