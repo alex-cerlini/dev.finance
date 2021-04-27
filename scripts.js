@@ -70,6 +70,7 @@ const DOM = {
 
     updateBalance() {
         document.getElementById('incomeDisplay').innerHTML = "Add Incomes"
+        document.getElementById('expenseDisplay').innerHTML = "Add Expenses"
     }
 }
 
