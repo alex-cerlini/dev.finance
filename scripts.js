@@ -34,7 +34,15 @@ const transactions = [
 
 const Transaction = {
     incomes() {
-        // add incomes
+        let income = 0
+
+        transactions.forEach(transaction => {
+            if (transaction.amount > 0) {
+                income += transaction.amount
+            }
+        })
+
+        return income
     },
     expenses() {
         // add expenses
@@ -69,7 +77,7 @@ const DOM = {
     },
 
     updateBalance() {
-        document.getElementById('incomeDisplay').innerHTML = "Add Incomes"
+        document.getElementById('incomeDisplay').innerHTML = Transaction.incomes()
         document.getElementById('expenseDisplay').innerHTML = "Add Expenses"
         document.getElementById('totalDisplay').innerHTML = "Total"
     }
