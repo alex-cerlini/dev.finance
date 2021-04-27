@@ -79,6 +79,8 @@ const Utils = {
             style: "currency",
             currency: "BRL"
         })
+
+        return signal + value
     }
 }
 
