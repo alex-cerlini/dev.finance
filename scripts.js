@@ -50,6 +50,7 @@ const DOM = {
         const tr = document.createElement('tr')
         tr.innerHTML = DOM.innerHTMLTransaction(transaction)
 
+        DOM.transactionsContainer.appendChild(tr)
     },
     innerHTMLTransaction(transaction) {
 
