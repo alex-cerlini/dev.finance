@@ -54,9 +54,9 @@ const DOM = {
     innerHTMLTransaction(transaction) {
 
         const html = `
-        <td class="description">Luz</td>
-        <td class="expense">- R$ 500,00</td>
-        <td class="date">11/04/2021</td>
+        <td class="description">${transaction.description}</td>
+        <td class="expense">${transaction.amount}</td>
+        <td class="date">${transaction.date}</td>
         <td>
             <img src="./assets/minus.svg" alt="Remover Transação">
         </td>
