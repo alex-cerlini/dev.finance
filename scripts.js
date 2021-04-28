@@ -36,6 +36,7 @@ const Transaction = {
 
     add(transaction) {
         Transaction.all.push(transaction)
+        App.reload()
     },
 
     incomes() {
