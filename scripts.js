@@ -128,6 +128,7 @@ const Utils = {
 const Form = {
     validateFields() {
         // check if have a empty field
+        console.log("validateFields")
     },
 
     formatData() {
