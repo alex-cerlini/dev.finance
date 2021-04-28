@@ -125,9 +125,10 @@ const App = {
         Transaction.all.forEach(transaction => {
             DOM.addTransaction(transaction)
         })
+
+        DOM.updateBalance()
+
     }
 }
 
 App.init()
-
-DOM.updateBalance()
