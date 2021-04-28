@@ -136,3 +136,10 @@ const App = {
 }
 
 App.init()
+
+Transaction.add({
+    id: 39,
+    description: 'alo',
+    amount: 200,
+    date: '28/04/2021'
+})
