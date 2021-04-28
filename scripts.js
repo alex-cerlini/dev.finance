@@ -2,6 +2,7 @@ Modal = {
     open() {
         document.querySelector('.modal-overlay').classList.add('active');
     },
+
     close() {
         document.querySelector('.modal-overlay').classList.remove('active')
     }
@@ -14,12 +15,14 @@ const transactions = [
         amount: -50000,
         date: '25/04/2021',
     },
+
     {
         id: 2,
         description: 'Criação de WebSite',
         amount: 500000,
         date: '25/04/2021',
     },
+
     {
         id: 3,
         description: 'Internet',
@@ -40,6 +43,7 @@ const Transaction = {
         })
         return income
     },
+
     expenses() {
         let expense = 0
 
@@ -50,6 +54,7 @@ const Transaction = {
         })
         return expense
     },
+
     total() {
         let total = 0
 
@@ -69,6 +74,7 @@ const DOM = {
 
         DOM.transactionsContainer.appendChild(tr)
     },
+
     innerHTMLTransaction(transaction) {
         const cssClass = transaction.amount > 0 ? "income" : "expense"
 
