@@ -139,6 +139,8 @@ const Form = {
         event.preventDefault()
 
         Form.validateFields()
+
+        Form.formatData()
     }
 }
 
