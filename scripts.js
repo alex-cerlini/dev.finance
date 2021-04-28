@@ -140,6 +140,11 @@ const Form = {
 
     validateFields() {
         const { description, amount, date } = Form.getValues()
+
+        if (description.trim() === "" || amount.trim() === "" || date.trim() === "") {
+            throw new Error("Por favor, preencha todos os campos")
+        }
+
     },
 
     // formatData() {
@@ -149,7 +154,12 @@ const Form = {
     submit(event) {
         event.preventDefault()
 
-        Form.validateFields()
+        try {
+            Form.validateFields()
+        } catch (error) {
+            alert(error.message)
+        }
+
 
         // Form.formatData()
     }
