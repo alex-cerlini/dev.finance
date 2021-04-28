@@ -127,7 +127,7 @@ const Utils = {
 
 const Form = {
 
-},
+}
 
 const App = {
     init() {
