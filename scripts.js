@@ -109,6 +109,10 @@ const DOM = {
 }
 
 const Utils = {
+    formatAmount(amount) {
+
+    },
+
     formatCurrency(value) {
         const signal = Number(value) < 0 ? "-" : ""
 
