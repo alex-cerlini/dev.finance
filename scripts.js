@@ -135,6 +135,7 @@ const App = {
     },
 
     reload() {
+        DOM.clearTransactions()
         App.init()
     }
 }
