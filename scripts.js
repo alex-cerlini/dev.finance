@@ -140,7 +140,7 @@ const Form = {
 
     validateFields() {
         // check if have a empty field
-        console.log("validateFields")
+        console.log(Form.getValues())
     },
 
     // formatData() {
