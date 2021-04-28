@@ -125,6 +125,10 @@ const Utils = {
     }
 }
 
+const Form = {
+
+},
+
 const App = {
     init() {
         Transaction.all.forEach(transaction => {
