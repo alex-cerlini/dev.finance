@@ -130,7 +130,7 @@ const App = {
     },
 
     reload() {
-
+        App.init()
     }
 }
 
