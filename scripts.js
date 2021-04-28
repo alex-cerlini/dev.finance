@@ -150,5 +150,3 @@ Transaction.add({
     amount: 200,
     date: '28/04/2021'
 })
-
-Transaction.remove(0)
