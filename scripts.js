@@ -127,6 +127,9 @@ const App = {
         })
 
         DOM.updateBalance()
+    },
+
+    reload() {
 
     }
 }
