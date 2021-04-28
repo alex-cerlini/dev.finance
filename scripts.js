@@ -130,6 +130,10 @@ const Form = {
         // check if have a empty field
     },
 
+    formatData() {
+        console.log("FormatData")
+    },
+
     submit(event) {
         event.preventDefault()
 
