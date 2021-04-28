@@ -126,21 +126,23 @@ const Utils = {
 }
 
 const Form = {
+    description: document.querySelector('input#description'),
+
     validateFields() {
         // check if have a empty field
         console.log("validateFields")
     },
 
-    formatData() {
-        console.log("FormatData")
-    },
+    // formatData() {
+    //     console.log("FormatData")
+    // },
 
     submit(event) {
         event.preventDefault()
 
         Form.validateFields()
 
-        Form.formatData()
+        // Form.formatData()
     }
 }
 
