@@ -33,6 +33,11 @@ const transactions = [
 
 const Transaction = {
     all: transactions,
+
+    add(transaction) {
+        Transaction.all.push(transaction)
+    },
+
     incomes() {
         let income = 0
 
@@ -112,6 +117,12 @@ const Utils = {
         })
 
         return signal + " " + value
+    }
+}
+
+const App = {
+    init() {
+
     }
 }
 
