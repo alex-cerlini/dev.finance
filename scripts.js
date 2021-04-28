@@ -139,8 +139,7 @@ const Form = {
     },
 
     validateFields() {
-        // check if have a empty field
-        console.log(Form.getValues())
+        const { description, amount, date } = Form.getValues()
     },
 
     // formatData() {
