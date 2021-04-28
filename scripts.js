@@ -132,6 +132,8 @@ const Form = {
 
     submit(event) {
         event.preventDefault()
+
+        Form.validateFields()
     }
 }
 
