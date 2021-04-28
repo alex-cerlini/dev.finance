@@ -127,6 +127,7 @@ const Utils = {
 
 const Form = {
     description: document.querySelector('input#description'),
+    amount: document.querySelector('input#amount'),
 
     validateFields() {
         // check if have a empty field
