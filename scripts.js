@@ -10,7 +10,6 @@ Modal = {
 
 const transactions = [
     {
-        id: 1,
         description: 'Luz',
         amount: -50000,
         date: '25/04/2021',
