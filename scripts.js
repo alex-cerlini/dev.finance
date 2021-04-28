@@ -147,9 +147,9 @@ const Form = {
 
     },
 
-    // formatData() {
-    //     console.log("FormatData")
-    // },
+    formatValues() {
+        console.log("FormatData")
+    },
 
     submit(event) {
         event.preventDefault()
@@ -161,7 +161,7 @@ const Form = {
         }
 
 
-        // Form.formatData()
+        // Form.formatValues()
     }
 }
 
