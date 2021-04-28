@@ -128,6 +128,6 @@ const App = {
     }
 }
 
-
+App.init()
 
 DOM.updateBalance()
