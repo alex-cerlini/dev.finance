@@ -122,7 +122,7 @@ const Utils = {
 
 const App = {
     init() {
-        Transaction.all.forEach(function (transaction) {
+        Transaction.all.forEach(transaction => {
             DOM.addTransaction(transaction)
         })
     }
