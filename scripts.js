@@ -126,7 +126,9 @@ const Utils = {
 }
 
 const Form = {
-
+    submit(event) {
+        console.log(event)
+    }
 }
 
 const App = {
