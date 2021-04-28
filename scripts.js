@@ -57,7 +57,7 @@ const Transaction = {
     total() {
         let total = 0
 
-        transactions.forEach(transaction => {
+        Transaction.all.forEach(transaction => {
             total = total + transaction.amount
         })
 
