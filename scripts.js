@@ -33,6 +33,7 @@ const transactions = [
 ]
 
 const Transaction = {
+    all: transactions,
     incomes() {
         let income = 0
 
