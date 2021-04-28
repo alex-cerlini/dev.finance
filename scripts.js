@@ -39,6 +39,10 @@ const Transaction = {
         App.reload()
     },
 
+    remove(index) {
+
+    },
+
     incomes() {
         let income = 0
 
