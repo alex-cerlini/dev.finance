@@ -148,7 +148,8 @@ const Form = {
     },
 
     formatValues() {
-        console.log("FormatData")
+        let { description, amount, date } = Form.getValues()
+
     },
 
     submit(event) {
