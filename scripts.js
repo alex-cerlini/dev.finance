@@ -16,7 +16,6 @@ const transactions = [
     },
 
     {
-        id: 2,
         description: 'Criação de WebSite',
         amount: 500000,
         date: '25/04/2021',
