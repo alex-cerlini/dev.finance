@@ -109,8 +109,7 @@ const DOM = {
 }
 
 const Utils = {
-    formatAmount(amount) {
-
+    formatAmount(value) {
     },
 
     formatCurrency(value) {
