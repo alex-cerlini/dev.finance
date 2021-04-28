@@ -136,7 +136,7 @@ const Form = {
             amount: Form.amount.value,
             date: Form.date.value
         }
-    }
+    },
 
     validateFields() {
         // check if have a empty field
