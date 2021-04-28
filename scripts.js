@@ -130,6 +130,14 @@ const Form = {
     amount: document.querySelector('input#amount'),
     date: document.querySelector('input#date'),
 
+    getValues() {
+        return {
+            description: Form.description.value,
+            amount: Form.amount.value,
+            date: Form.date.value
+        }
+    }
+
     validateFields() {
         // check if have a empty field
         console.log("validateFields")
