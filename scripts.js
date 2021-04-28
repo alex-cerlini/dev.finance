@@ -126,8 +126,12 @@ const Utils = {
 }
 
 const Form = {
+    validateFields() {
+        // check if have a empty field
+    },
+
     submit(event) {
-        console.log(event)
+        event.preventDefault()
     }
 }
 
