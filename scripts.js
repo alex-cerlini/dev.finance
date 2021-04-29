@@ -8,6 +8,18 @@ Modal = {
   },
 };
 
+const Storage = {
+  get() {
+    return JSON.parse(localStorage.getItem("dev.finances:transactions")) || [];
+  },
+  set(transactions) {
+    localStorage.setItem(
+      "dev.finances:transactions",
+      JSON.stringify(transactions)
+    );
+  },
+};
+
 const Transaction = {
   all: Storage.get(),
 
@@ -187,18 +199,6 @@ const Form = {
     }
 
     // Form.formatValues()
-  },
-};
-
-const Storage = {
-  get() {
-    return JSON.parse(localStorage.getItem("dev.finances:transactions")) || [];
-  },
-  set(transactions) {
-    localStorage.setItem(
-      "dev.finances:transactions",
-      JSON.stringify(transactions)
-    );
   },
 };
 
