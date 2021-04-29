@@ -196,7 +196,7 @@ const Form = {
     try {
       Form.validateFields();
       const transaction = Form.formatValues();
-      Form.saveTransaction();
+      Form.saveTransaction(transaction);
       Form.clearFields();
     } catch (error) {
       alert(error.message);
