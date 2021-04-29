@@ -185,7 +185,7 @@ const Form = {
   },
 
   clearFields(){
-      
+
   }
 
   submit(event) {
@@ -195,6 +195,7 @@ const Form = {
       Form.validateFields();
       const transaction = Form.formatValues();
       Form.saveTransaction();
+      Form.clearFields();
     } catch (error) {
       alert(error.message);
     }
