@@ -180,9 +180,9 @@ const Form = {
     };
   },
 
-  saveTransaction(transaction){
-
-  }
+  saveTransaction(transaction) {
+    Transaction.add(transaction);
+  },
 
   submit(event) {
     event.preventDefault();
