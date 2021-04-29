@@ -115,7 +115,7 @@ const Utils = {
     },
 
     formatDate(date) {
-
+        console.log(date)
     },
 
     formatCurrency(value) {
