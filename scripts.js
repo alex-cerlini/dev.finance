@@ -208,6 +208,8 @@ const Form = {
   },
 };
 
+const Storage = {};
+
 const App = {
   init() {
     Transaction.all.forEach(DOM.addTransaction);
