@@ -177,7 +177,7 @@ const Form = {
 
         try {
             // Form.validateFields()
-            Form.formatValues()
+            const transaction = Form.formatValues()
         } catch (error) {
             alert(error.message)
         }
