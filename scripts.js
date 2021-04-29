@@ -209,9 +209,7 @@ const Form = {
 };
 
 const Storage = {
-  get() {
-    console.log(localStorage);
-  },
+  get() {},
   set(transactions) {
     localStorage.setItem(
       "dev.finances:transactions",
@@ -219,8 +217,6 @@ const Storage = {
     );
   },
 };
-
-Storage.get();
 
 const App = {
   init() {
