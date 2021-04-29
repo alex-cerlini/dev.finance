@@ -82,7 +82,7 @@ const DOM = {
     DOM.transactionsContainer.appendChild(tr);
   },
 
-  innerHTMLTransaction(transaction) {
+  innerHTMLTransaction(transaction, index) {
     const cssClass = transaction.amount > 0 ? "income" : "expense";
 
     const amount = Utils.formatCurrency(transaction.amount);
