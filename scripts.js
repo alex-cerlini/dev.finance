@@ -210,6 +210,7 @@ const Form = {
 
 const Storage = {
   get() {},
+  set() {},
 };
 
 const App = {
