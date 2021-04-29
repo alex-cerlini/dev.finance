@@ -180,7 +180,7 @@ const Form = {
     };
   },
 
-  saveTransaction(){
+  saveTransaction(transaction){
 
   }
 
