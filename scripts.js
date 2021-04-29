@@ -164,6 +164,12 @@ const Form = {
 
         date = Utils.formatDate(date)
 
+        return {
+            description,
+            amount,
+            date
+        }
+
     },
 
     submit(event) {
