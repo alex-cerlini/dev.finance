@@ -215,6 +215,8 @@ const Storage = {
   set() {},
 };
 
+Storage.get();
+
 const App = {
   init() {
     Transaction.all.forEach(DOM.addTransaction);
