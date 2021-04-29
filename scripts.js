@@ -9,7 +9,7 @@ Modal = {
 };
 
 const Transaction = {
-  all: Storage.get,
+  all: Storage.get(),
 
   add(transaction) {
     Transaction.all.push(transaction);
