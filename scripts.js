@@ -213,7 +213,10 @@ const Storage = {
     console.log(localStorage);
   },
   set(transactions) {
-    localStorage.setItem("dev.finances:transactions", transactions);
+    localStorage.setItem(
+      "dev.finances:transactions",
+      JSON.stringify(transactions)
+    );
   },
 };
 
