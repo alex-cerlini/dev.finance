@@ -114,6 +114,10 @@ const Utils = {
         return value
     },
 
+    formatDate(date) {
+
+    },
+
     formatCurrency(value) {
         const signal = Number(value) < 0 ? "-" : ""
 
