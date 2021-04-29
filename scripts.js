@@ -212,7 +212,7 @@ const Storage = {
   get() {
     console.log(localStorage);
   },
-  set() {},
+  set(transactions) {},
 };
 
 Storage.get();
