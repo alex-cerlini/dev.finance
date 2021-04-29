@@ -115,7 +115,8 @@ const Utils = {
     },
 
     formatDate(date) {
-        console.log(date)
+        const splittedDate = date.split("-")
+        console.log(`${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`)
     },
 
     formatCurrency(value) {
