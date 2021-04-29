@@ -184,6 +184,10 @@ const Form = {
     Transaction.add(transaction);
   },
 
+  clearFields(){
+      
+  }
+
   submit(event) {
     event.preventDefault();
 
