@@ -180,11 +180,15 @@ const Form = {
     };
   },
 
+  saveTransaction(){
+      
+  }
+
   submit(event) {
     event.preventDefault();
 
     try {
-      // Form.validateFields()
+      Form.validateFields();
       const transaction = Form.formatValues();
     } catch (error) {
       alert(error.message);
