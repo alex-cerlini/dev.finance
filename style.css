@@ -279,6 +279,8 @@ footer {
   text-align: center;
   padding: 4rem 0 2rem;
   opacity: 0.6;
+  position: relative;
+  z-index: -1000;
 }
 
 /* ================== RESPONSIVE ================== */
