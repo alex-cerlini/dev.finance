@@ -187,6 +187,7 @@ const Form = {
   clearFields() {
     Form.description.value = "";
     Form.amount.value = "";
+    Form.date.value = "";
   },
 
   submit(event) {
