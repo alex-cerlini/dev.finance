@@ -184,7 +184,9 @@ const Form = {
     Transaction.add(transaction);
   },
 
-  clearFields() {},
+  clearFields() {
+    Form.description.value = "";
+  },
 
   submit(event) {
     event.preventDefault();
