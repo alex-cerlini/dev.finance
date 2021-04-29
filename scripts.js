@@ -209,7 +209,9 @@ const Form = {
 };
 
 const Storage = {
-  get() {},
+  get() {
+    console.log(localStorage);
+  },
   set() {},
 };
 
