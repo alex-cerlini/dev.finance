@@ -208,7 +208,9 @@ const Form = {
   },
 };
 
-const Storage = {};
+const Storage = {
+  get() {},
+};
 
 const App = {
   init() {
