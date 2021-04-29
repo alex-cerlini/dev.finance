@@ -209,7 +209,9 @@ const Form = {
 };
 
 const Storage = {
-  get() {},
+  get() {
+    return JSON.parse(localStorage.getItem("dev.finances:transactions")) || [];
+  },
   set(transactions) {
     localStorage.setItem(
       "dev.finances:transactions",
