@@ -184,9 +184,7 @@ const Form = {
     Transaction.add(transaction);
   },
 
-  clearFields(){
-
-  }
+  clearFields() {},
 
   submit(event) {
     event.preventDefault();
