@@ -3,7 +3,7 @@
 <p align="center">A Web Application that does a cash flow</p>
 
 <h4 align="center"> 
-	🚧  Under construction  🚧
+	🚧  In Production on Netlify  🚧
 </h4>
 
 ---
