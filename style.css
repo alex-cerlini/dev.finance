@@ -1,297 +1,360 @@
 /* ================== GLOBAL ================== */
+
 :root {
-  --dark-blue: #363f5f;
-  --green: #49aa26;
-  --light-green: #3dd705;
-  --red: #e92929;
+    --dark-blue: #363f5f;
+    --green: #49aa26;
+    --light-green: #3dd705;
+    --red: #e92929;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 93.75%;
+    font-size: 93.75%;
 }
 
 body {
-  background: #f0f2f5;
-  font-family: "Poppins", sans-serif;
+    background: #f0f2f5;
+    font-family: "Poppins", sans-serif;
 }
 
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
 
 .container {
-  width: min(90vw, 800px);
-  margin: auto;
+    width: min(90vw, 800px);
+    margin: auto;
 }
+
 
 /* ================== TITLES ================== */
 
 h2 {
-  margin-top: 3.2rem;
-  margin-bottom: 0.8rem;
-  color: var(--dark-blue);
-  font-weight: 400;
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+    font-weight: 400;
 }
+
 
 /* ================== LINKS & BUTTONS ================== */
 
 a {
-  color: var(--green);
-  text-decoration: none;
+    color: var(--green);
+    text-decoration: none;
 }
 
 a:hover {
-  color: var(--light-green);
+    color: var(--light-green);
 }
 
 button {
-  width: 100%;
-  height: 50px;
-  border: none;
-  color: #fff;
-  background-color: var(--green);
-  padding: 0;
-  border-radius: 0.25rem;
-  cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background-color: var(--green);
+    padding: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: var(--light-green);
+    background-color: var(--light-green);
 }
 
 .button.new {
-  display: inline-block;
-  margin-bottom: 0.8rem;
+    display: inline-block;
+    margin-bottom: 0.8rem;
 }
 
 .button.cancel {
-  color: var(--red);
-  border: 2px var(--red) solid;
-  border-radius: 0.25rem;
-
-  height: 50px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  opacity: 0.6;
+    color: var(--red);
+    border: 2px var(--red) solid;
+    border-radius: 0.25rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
 }
 
 .button.cancel:hover {
-  opacity: 1;
+    opacity: 1;
 }
+
 
 /* ================== HEADER ================== */
 
 header {
-  background: #2d4022;
-  padding: 4rem 0;
-  text-align: center;
+    background: #2d4022;
+    padding: 4rem 0;
+    text-align: center;
 }
 
 #logo {
-  color: #fff;
+    color: #fff;
 }
+
 
 /* ================== BALANCE ================== */
 
 #balance {
-  margin-top: -3rem;
+    margin-top: -3rem;
 }
 
 #balance h2 {
-  color: #fff;
-  margin-top: 0;
+    color: #fff;
+    margin-top: 0;
 }
+
 
 /* ================== CARDS ================== */
 
 .card {
-  background: white;
-  padding: 1.5rem 2rem;
-  border-radius: 0.5rem;
-  margin-bottom: 2rem;
-  color: var(--dark-blue);
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    color: var(--dark-blue);
 }
 
 .card h3 {
-  font-weight: normal;
-  font-size: 1rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    font-weight: normal;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card p {
-  font-size: 2rem;
-  line-height: 3rem;
-
-  margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
 }
 
 .card.total {
-  background: var(--green);
-  color: #fff;
+    background: var(--green);
+    color: #fff;
 }
+
 
 /* ================== TABLE ================== */
 
 #transaction {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
 }
 
 #data-table {
-  width: 100%;
-  border-spacing: 0 0.5rem;
-  color: #969cb3;
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: #969cb3;
 }
 
 table thead th:first-child,
 table tbody td:first-child {
-  border-radius: 0.7rem 0 0 0.7rem;
+    border-radius: 0.7rem 0 0 0.7rem;
 }
 
 table thead th:last-child,
 table tbody td:last-child {
-  border-radius: 0 0.7rem 0.7rem 0;
+    border-radius: 0 0.7rem 0.7rem 0;
 }
 
 table thead th {
-  background: #fff;
-  opacity: 0.6;
-  font-weight: normal;
-  padding: 1rem 2rem;
-  text-align: left;
+    background: #fff;
+    opacity: 0.6;
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
 }
 
 table tbody tr {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 table tbody tr:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 table tbody td {
-  background: #fff;
-  padding: 1rem 2rem;
+    background: #fff;
+    padding: 1rem 2rem;
 }
 
 td.description {
-  color: var(--dark-blue);
+    color: var(--dark-blue);
 }
 
 td.income {
-  color: #12a454;
+    color: #12a454;
 }
 
 td.expense {
-  color: #e92929;
+    color: #e92929;
 }
+
 
 /* ================== MODAL ================== */
 
 .modal-overlay {
-  width: 100%;
-  height: 100%;
-
-  background-color: rgba(0, 0, 0, 0.7);
-
-  position: fixed;
-  top: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  opacity: 0;
-  visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .modal-overlay.active {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 .modal {
-  background-color: #f0f2f5;
-  padding: 2.4rem;
+    background-color: #f0f2f5;
+    padding: 2.4rem;
 }
+
 
 /* ================== FOOTER ================== */
 
 #form {
-  max-width: 500px;
+    max-width: 500px;
 }
 
 #form h2 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 input {
-  border: none;
-  border-radius: 0.2rem;
-  padding: 0.8rem;
-
-  width: 100%;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    width: 100%;
 }
 
 .input-group {
-  margin-top: 0.8rem;
+    margin-top: 0.8rem;
 }
 
 .input-group small {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 .input-group.actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .input-group.actions .button,
 .input-group.actions button {
-  width: 48%;
+    width: 48%;
 }
+
+
+/* ================== Toggle Button ================== */
+
+body {
+    background: #eee;
+}
+
+.toggle>label {
+    position: relative;
+    display: block;
+    height: 20px;
+    width: 44px;
+    background: #898989;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.toggle>label:after {
+    position: absolute;
+    left: -2px;
+    top: -3px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+    content: '';
+    transition: all 0.3s ease;
+}
+
+.toggle>label:active:after {
+    transform: scale(1.15, 0.85);
+}
+
+.toggle>input:checked~label {
+    background: #6fbeb5;
+}
+
+.toggle>input:checked~label:after {
+    left: 20px;
+    background: #179588;
+}
+
+.toggle>input:disabled~label {
+    background: #d5d5d5;
+    pointer-events: none;
+}
+
+.toggle>input:disabled~label:after {
+    background: #bcbdbc;
+}
+
+.toggle {
+    margin-bottom: 40px;
+}
+
+.toggle>input {
+    display: none;
+}
+
 
 /* ================== FOOTER ================== */
 
 footer {
-  text-align: center;
-  padding: 4rem 0 2rem;
-  opacity: 0.6;
-  position: relative;
-  z-index: -1000;
+    text-align: center;
+    padding: 4rem 0 2rem;
+    opacity: 0.6;
+    position: relative;
+    z-index: -1000;
 }
 
-/* ================== RESPONSIVE ================== */
-@media (min-width: 800px) {
-  html {
-    font-size: 87.5%;
-  }
 
-  #balance {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
+/* ================== RESPONSIVE ================== */
+
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
 }
