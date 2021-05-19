@@ -331,6 +331,9 @@ input {
 
 .toggle {
     margin-bottom: 40px;
+    position: absolute;
+    left: 33%;
+    margin-top: 7px;
 }
 
 .toggle>input {
