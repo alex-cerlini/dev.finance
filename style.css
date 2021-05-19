@@ -336,6 +336,10 @@ input {
     margin-top: 7px;
 }
 
+.container-toggle p {
+    color: #f0f2f5;
+}
+
 .toggle>input {
     display: none;
 }
