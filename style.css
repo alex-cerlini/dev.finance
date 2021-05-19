@@ -275,8 +275,11 @@ input {
 
 /* ================== Toggle Button ================== */
 
-body {
-    background: #eee;
+.container-toggle {
+    position: absolute;
+    width: 10vw;
+    top: 3vh;
+    right: 6vw;
 }
 
 .toggle>label {
